@@ -1,0 +1,124 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.dist/
+.build/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+.env.example
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Misc
+.cache/
+*.bak
+.DS_Store
+
+# Supabase
+.supabase/
+
+# Testing
+.nyc_output/
+coverage/
+.test/
+
+# Client build
+client/dist/
+client/build/
+
+# Server build
+server/dist/
+server/build/
+
+# Migration backups
+migrations/backup/
+
+# Cache
+.eslintcache
+.jest-cache
+.parcel-cache
+
+# Recommended to ignore for security
+.credentials
+.tokens
+credentials.json
+
+# IDE workspace files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
